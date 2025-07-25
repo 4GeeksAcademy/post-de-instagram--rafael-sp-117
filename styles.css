@@ -2,18 +2,16 @@
     margin: 0;
     padding: 0;
 }
-
 .post{  
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: white;
     align-items: center;
     width: 800px;
     height: 1000px;    
 }
 .postheader{
     display: flex;
-    background-color: white;
+    background-color:whitesmoke;
     text-align: center;
     align-items: center;   
 }
@@ -21,8 +19,8 @@
     display: grid;
     grid-template-columns: 3, 1fr;
     padding: 10px;
-    
 }
+
 .paragraph-right{
     display: flex;
     padding: 10px;
@@ -38,33 +36,20 @@
     height: 540px;
     margin: 0;    
 }
-img{
+.img{
     max-width: 800px;
     max-height: 540px;
 }
-.body.bg{
-    background-color: black;
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 body{
     display: flex;
-    background-color: black;
     text-align: center;
     justify-content: center;
     align-items: center;  
 }
-
 .post-icons {
     display: flex;
     justify-content: space-between;
-    background-color: white;
-    margin-bottom: 40px;
-    margin-top: 20px;  
+    background-color: whitesmoke;
 }
 .icons-left{
     display: flex;
@@ -79,18 +64,16 @@ body{
     margin-top: 10px;
 }
 .finaltext{
+    background-color: whitesmoke;
     display: flex;
     padding: 20px;
 }
 .post-body{
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 .Liked {
-    margin-left: 25px;
+    margin-left: 20px;
 }
-
-
-
-
